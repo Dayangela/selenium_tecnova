@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Automation_Concepts_Project">
+
+
+<parameter name="URL_PRINCIPAL" value="https://trello.com/home" />
+
+	<test name="TestBase">               
+		<classes>                        
+			<class name="cl.tecnova.qa.tests.TestConcepto">
+				<methods>
+  					<include name="loginUsuario" />
+  					<include name="loginPassIncorrecto" />
+  					<include name="creacionTablero" />
+  					<include name="crearListaEnTablero" />
+  					<include name="editarTarjeta" />
+  					<include name="moverTarjeta" />
+  					<include name="eliminarTablero" />		
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

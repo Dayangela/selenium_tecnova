@@ -1,0 +1,8 @@
+cl\tecnova\qa\helpers\PageWeb.class
+cl\tecnova\qa\pages\ListWorkPage.class
+cl\tecnova\qa\helpers\Helper.class
+cl\tecnova\qa\pages\CrearTableroPage.class
+cl\tecnova\qa\pages\LoginPage.class
+cl\tecnova\qa\pages\InicioPage.class
+cl\tecnova\qa\pages\CloseSessionPage.class
+cl\tecnova\qa\tests\TestConcepto.class

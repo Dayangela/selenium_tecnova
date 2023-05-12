@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-12-09T09:18:53 CLST" name="Automation_Concepts_Project" finished-at="2020-12-09T09:23:43 CLST" duration-ms="289675">
+    <groups>
+    </groups>
+    <test started-at="2020-12-09T09:18:53 CLST" name="TestBase" finished-at="2020-12-09T09:23:43 CLST" duration-ms="289675">
+      <class name="cl.tecnova.qa.tests.TestConcepto">
+        <test-method is-config="true" signature="configExtentReports()[pri:0, instance:cl.tecnova.qa.tests.TestConcepto@258d79be]" started-at="2020-12-09T09:18:53 CLST" name="configExtentReports" finished-at="2020-12-09T09:18:53 CLST" duration-ms="349" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configExtentReports -->
+        <test-method is-config="true" signature="configSelenium(java.lang.String)[pri:0, instance:cl.tecnova.qa.tests.TestConcepto@258d79be]" started-at="2020-12-09T09:18:54 CLST" name="configSelenium" finished-at="2020-12-09T09:19:07 CLST" duration-ms="13492" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://trello.com/home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configSelenium -->
+        <test-method signature="loginUsuario()[pri:0, instance:cl.tecnova.qa.tests.TestConcepto@258d79be]" started-at="2020-12-09T09:19:07 CLST" name="loginUsuario" finished-at="2020-12-09T09:19:36 CLST" duration-ms="29217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginUsuario -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:cl.tecnova.qa.tests.TestConcepto@258d79be]" started-at="2020-12-09T09:19:36 CLST" name="afterMethod" finished-at="2020-12-09T09:19:36 CLST" duration-ms="211" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginUsuario status=SUCCESS method=TestConcepto.loginUsuario()[pri:0, instance:cl.tecnova.qa.tests.TestConcepto@258d79be] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="configSelenium(java.lang.String)[pri:0, instance:cl.tecnova.qa.tests.TestConcepto@258d79be]" started-at="2020-12-09T09:19:36 CLST" name="configSelenium" finished-at="2020-12-09T09:19:46 CLST" duration-ms="9580" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://trello.com/home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configSelenium -->
+        <test-method signature="loginPassIncorrecto()[pri:0, instance:cl.tecnova.qa.tests.TestConcepto@258d79be]" started-at="2020-12-09T09:19:46 CLST" name="loginPassIncorrecto" finished-at="2020-12-09T09:19:59 CLST" duration-ms="13358" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPassIncorrecto -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:cl.tecnova.qa.tests.TestConcepto@258d79be]" started-at="2020-12-09T09:19:59 CLST" name="afterMethod" finished-at="2020-12-09T09:20:00 CLST" duration-ms="446" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginPassIncorrecto status=SUCCESS method=TestConcepto.loginPassIncorrecto()[pri:0, instance:cl.tecnova.qa.tests.TestConcepto@258d79be] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="configSelenium(java.lang.String)[pri:0, instance:cl.tecnova.qa.tests.TestConcepto@258d79be]" started-at="2020-12-09T09:20:00 CLST" name="configSelenium" finished-at="2020-12-09T09:20:10 CLST" duration-ms="10368" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://trello.com/home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configSelenium -->
+        <test-method signature="creacionTablero()[pri:0, instance:cl.tecnova.qa.tests.TestConcepto@258d79be]" started-at="2020-12-09T09:20:10 CLST" name="creacionTablero" finished-at="2020-12-09T09:20:39 CLST" duration-ms="29062" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- creacionTablero -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:cl.tecnova.qa.tests.TestConcepto@258d79be]" started-at="2020-12-09T09:20:39 CLST" name="afterMethod" finished-at="2020-12-09T09:20:39 CLST" duration-ms="145" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=creacionTablero status=SUCCESS method=TestConcepto.creacionTablero()[pri:0, instance:cl.tecnova.qa.tests.TestConcepto@258d79be] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="configSelenium(java.lang.String)[pri:0, instance:cl.tecnova.qa.tests.TestConcepto@258d79be]" started-at="2020-12-09T09:20:39 CLST" name="configSelenium" finished-at="2020-12-09T09:20:49 CLST" duration-ms="9963" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://trello.com/home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configSelenium -->
+        <test-method signature="crearListaEnTablero()[pri:0, instance:cl.tecnova.qa.tests.TestConcepto@258d79be]" started-at="2020-12-09T09:20:49 CLST" name="crearListaEnTablero" finished-at="2020-12-09T09:21:21 CLST" duration-ms="31934" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- crearListaEnTablero -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:cl.tecnova.qa.tests.TestConcepto@258d79be]" started-at="2020-12-09T09:21:21 CLST" name="afterMethod" finished-at="2020-12-09T09:21:22 CLST" duration-ms="269" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=crearListaEnTablero status=SUCCESS method=TestConcepto.crearListaEnTablero()[pri:0, instance:cl.tecnova.qa.tests.TestConcepto@258d79be] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="configSelenium(java.lang.String)[pri:0, instance:cl.tecnova.qa.tests.TestConcepto@258d79be]" started-at="2020-12-09T09:21:22 CLST" name="configSelenium" finished-at="2020-12-09T09:21:31 CLST" duration-ms="9139" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://trello.com/home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configSelenium -->
+        <test-method signature="editarTarjeta()[pri:0, instance:cl.tecnova.qa.tests.TestConcepto@258d79be]" started-at="2020-12-09T09:21:31 CLST" name="editarTarjeta" finished-at="2020-12-09T09:22:16 CLST" duration-ms="44989" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editarTarjeta -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:cl.tecnova.qa.tests.TestConcepto@258d79be]" started-at="2020-12-09T09:22:16 CLST" name="afterMethod" finished-at="2020-12-09T09:22:16 CLST" duration-ms="319" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=editarTarjeta status=SUCCESS method=TestConcepto.editarTarjeta()[pri:0, instance:cl.tecnova.qa.tests.TestConcepto@258d79be] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="configSelenium(java.lang.String)[pri:0, instance:cl.tecnova.qa.tests.TestConcepto@258d79be]" started-at="2020-12-09T09:22:16 CLST" name="configSelenium" finished-at="2020-12-09T09:22:26 CLST" duration-ms="9787" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://trello.com/home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configSelenium -->
+        <test-method signature="moverTarjeta()[pri:0, instance:cl.tecnova.qa.tests.TestConcepto@258d79be]" started-at="2020-12-09T09:22:26 CLST" name="moverTarjeta" finished-at="2020-12-09T09:22:58 CLST" duration-ms="32239" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- moverTarjeta -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:cl.tecnova.qa.tests.TestConcepto@258d79be]" started-at="2020-12-09T09:22:58 CLST" name="afterMethod" finished-at="2020-12-09T09:22:58 CLST" duration-ms="225" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=moverTarjeta status=SUCCESS method=TestConcepto.moverTarjeta()[pri:0, instance:cl.tecnova.qa.tests.TestConcepto@258d79be] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="configSelenium(java.lang.String)[pri:0, instance:cl.tecnova.qa.tests.TestConcepto@258d79be]" started-at="2020-12-09T09:22:58 CLST" name="configSelenium" finished-at="2020-12-09T09:23:08 CLST" duration-ms="9733" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://trello.com/home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configSelenium -->
+        <test-method signature="eliminarTablero()[pri:0, instance:cl.tecnova.qa.tests.TestConcepto@258d79be]" started-at="2020-12-09T09:23:08 CLST" name="eliminarTablero" finished-at="2020-12-09T09:23:43 CLST" duration-ms="34987" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- eliminarTablero -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:cl.tecnova.qa.tests.TestConcepto@258d79be]" started-at="2020-12-09T09:23:43 CLST" name="afterMethod" finished-at="2020-12-09T09:23:43 CLST" duration-ms="122" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=eliminarTablero status=SUCCESS method=TestConcepto.eliminarTablero()[pri:0, instance:cl.tecnova.qa.tests.TestConcepto@258d79be] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="closeExtentReports()[pri:0, instance:cl.tecnova.qa.tests.TestConcepto@258d79be]" started-at="2020-12-09T09:23:43 CLST" name="closeExtentReports" finished-at="2020-12-09T09:23:44 CLST" duration-ms="726" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeExtentReports -->
+      </class> <!-- cl.tecnova.qa.tests.TestConcepto -->
+    </test> <!-- TestBase -->
+  </suite> <!-- Automation_Concepts_Project -->
+</testng-results>
